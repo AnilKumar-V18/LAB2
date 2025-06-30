@@ -1,0 +1,8 @@
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.3.2</version> <!-- Optional: specify version -->
+    <configuration>
+        <webXml>src\main\webapp\WEB-INF\index.html</webXml>
+    </configuration>
+</plugin>
